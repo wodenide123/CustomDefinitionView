@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="my_textView">
+        <!--name 属性名称-->
+        <!--format 格式 :-->
+                    <!--string 文字-->
+                    <!--color 颜色-->
+                    <!--dimension 宽高 字体大小-->
+                    <!--integer 数字-->
+                    <!--reference 资源（drawable）-->
+        <attr name="my_text" format="string"></attr>
+        <attr name="my_textSize" format="dimension"></attr>
+        <attr name="my_textColor" format="color"></attr>
+        <attr name="my_textMaxLength" format="integer"></attr>
+        <attr name="my_InputType">
+            <enum name="number" value="0"></enum>
+            <enum name="text" value="1"></enum>
+            <enum name="password" value="2"></enum>
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="arc_progress">
+        <attr name="Radius" format="dimension"></attr>
+        <attr name="out_color" format="color"></attr>
+        <attr name="in_color" format="color"></attr>
+        <attr name="strokeWidth" format="dimension"></attr>
+    </declare-styleable>
+</resources>

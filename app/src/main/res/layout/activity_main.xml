@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!--<com.xiong.test.customdefinitionview.weight.MyTextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:my_text="自己的"-->
+        <!--app:my_textColor="@color/colorPrimary"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--app:my_textSize="20sp" />-->
+    <com.xiong.test.customdefinitionview.weight.ArcProgress
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:strokeWidth="20dp"/>
+</LinearLayout>
